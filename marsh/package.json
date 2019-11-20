@@ -1,5 +1,6 @@
 {
   "name": "marsh",
+  "homepage": "http://students.cs.ndsu.nodak.edu/~kukert/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
