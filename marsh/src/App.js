@@ -1,23 +1,24 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to the development build of MARSH!
         </p>
-        <a
-          className="App-link"
+        <Button
+          variant="info"
           href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          size="lg"
         >
-          Learn React
-        </a>
+          Get Started
+        </Button>
       </header>
     </div>
   );
