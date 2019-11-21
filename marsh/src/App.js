@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+import Button from '@material-ui/core/Button';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +13,8 @@ function App() {
           Welcome to the development build of MARSH!
         </p>
         <Button
-          variant="info"
+          variant="contained"
+          //color="primary"
           href="https://reactjs.org"
           size="lg"
         >
