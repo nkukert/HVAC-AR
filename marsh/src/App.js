@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import Button from 'react-bootstrap/Button';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,13 +8,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
+      <p>4head</p>
         <p>
           Welcome to the development build of MARSH!
         </p>
         <Button
-          variant="contained"
-          //color="primary"
+          variant="info"
           href="https://reactjs.org"
           size="lg"
         >
