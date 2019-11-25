@@ -8,6 +8,10 @@
 
 .App-header {
   background-color: #282c34;
+  background-image: url("../src/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +23,22 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.welcomeCard{
+  opacity: 0.8;
+  justify-content: center;
+  width: 80%;
+  display: flexbox;
+}
+
+.bg-dark.text-white.card{
+  border-radius: 1rem;
+}
+
+/*This stinking dom selection - trying to grab the card 
+in the deck in the big card...*/
+.bg-dark.text-white.card.card-deck{
+  margin-left: 0px;
+  border-radius: 1rem;
 }
