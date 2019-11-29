@@ -7,8 +7,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  background-image: url("../src/logo.svg");
+  background-color: #121212;
+  background-image: url("../src/flame_bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.5);
@@ -22,36 +22,40 @@
 }
 
 .topLeft{
-  color: #525252;
-  opacity: 0.8;
+  opacity: 1;
   position: absolute;
+  min-width: 20vh;
+  min-height: 6.5vh;
   left: 3vh;
   top: 3vh;
   justify-content: center;
 }
 
 .topRight{
-  color: #525252;
-  opacity: 0.8;
+  opacity: 1;
   position: absolute;
+  min-width: 20vh;
+  min-height: 6.5vh;
   right: 3vh;
   top: 3vh;
   justify-content: center;
 }
 
 .bottomLeft{
-  color: #525252;
-  opacity: 0.8;
+  opacity: 1;
   position: absolute;
+  min-width: 20vh;
+  min-height: 6.5vh;
   left: 3vh;
   bottom: 3vh;
   justify-content: center;
 }
 
 .bottomRight{
-  color: #525252;
-  opacity: 0.8;
+  opacity: 1;
   position: absolute;
+  min-width: 20vh;
+  min-height: 6.5vh;
   right: 3vh;
   bottom: 3vh;
   justify-content: center;
@@ -70,4 +74,24 @@
   justify-content: center;
 
   display: flexbox;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiCard-root.topLeft.MuiPaper-rounded{
+  background: #03dac5;
+  padding-top: 2vh;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiCard-root.topRight.MuiPaper-rounded{
+  background: #03dac5;
+  padding-top: 2vh;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiCard-root.bottomLeft.MuiPaper-rounded{
+  background: #03dac5;
+  padding-top: 2vh;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiCard-root.bottomRight.MuiPaper-rounded{
+  background: #03dac5;
+  padding-top: 2vh;
 }

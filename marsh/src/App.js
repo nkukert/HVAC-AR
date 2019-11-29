@@ -16,19 +16,20 @@ function App() {
         </p>*/}
         <Grid
         container
+        spacing={3}
         direction='row'
         justify='flex-start'
         alignItems='flex-start'>
-          <Grid item xs={3}>
-            <div className = 'topLeft'>
-                <Card className='welcomeCard'>Oh hai</Card>
+          <Grid item xs>
+            <div>
+                <Card className='topLeft'>Explore</Card>
             </div>
           </Grid>
           <Grid item xs={6}></Grid>
-          <Grid item xs={3}>
-          <div className = 'topRight'>
-                <Card className='welcomeCard'>Oh hai</Card>
-              </div>
+          <Grid item xs>
+            <div>
+              <Card className='topRight'>Test</Card>
+            </div>
           </Grid>
 
         </Grid>
@@ -52,14 +53,14 @@ function App() {
         justify='flex-start'
         alignItems='flex-start'>
         <Grid item xs={3}>
-            <div className = 'bottomLeft'>
-                <Card className='welcomeCard'>Oh hai</Card>
+            <div>
+                <Card className='bottomLeft'>Evaluate</Card>
             </div>
           </Grid>
           <Grid item xs={6}></Grid>
           <Grid item xs={3}>
-          <div className = 'bottomRight'>
-                <Card className='welcomeCard'>Oh hai</Card>
+          <div>
+                <Card className='bottomRight'>Create</Card>
               </div>
           </Grid>
         </Grid>
