@@ -37,10 +37,9 @@ function App() {
           <div className='welcomeDiv'>
           <Card className="welcomeCard">
             <CardContent>
-            <Typography variant="body2" component="p">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
+            {/*NEED COLOR FIX FOR TYPOGRAPHY - BLACK TEXT ON BLACK BG NEEDS TO BE WHITE */}
+            <Typography color="error" variant="body2" component="p">
+            Welcome to the development build of MARSH!
           </Typography>
             </CardContent>
           </Card>
