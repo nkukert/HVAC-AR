@@ -21,14 +21,53 @@
   color: white;
 }
 
+.topLeft{
+  color: #525252;
+  opacity: 0.8;
+  position: absolute;
+  left: 3vh;
+  top: 3vh;
+  justify-content: center;
+}
+
+.topRight{
+  color: #525252;
+  opacity: 0.8;
+  position: absolute;
+  right: 3vh;
+  top: 3vh;
+  justify-content: center;
+}
+
+.bottomLeft{
+  color: #525252;
+  opacity: 0.8;
+  position: absolute;
+  left: 3vh;
+  bottom: 3vh;
+  justify-content: center;
+}
+
+.bottomRight{
+  color: #525252;
+  opacity: 0.8;
+  position: absolute;
+  right: 3vh;
+  bottom: 3vh;
+  justify-content: center;
+}
+
 .App-link {
   color: #09d3ac;
 }
 
+.welcomeDiv{
+  color: #525252;
+}
 .welcomeCard{
   opacity: 0.8;
   color: #525252;
   justify-content: center;
-  width: 15%;
+
   display: flexbox;
 }
