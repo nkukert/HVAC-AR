@@ -27,18 +27,8 @@
 
 .welcomeCard{
   opacity: 0.8;
+  color: #525252;
   justify-content: center;
-  width: 80%;
+  width: 15%;
   display: flexbox;
-}
-
-.bg-dark.text-white.card{
-  border-radius: 1rem;
-}
-
-/*This stinking dom selection - trying to grab the card 
-in the deck in the big card...*/
-.bg-dark.text-white.card.card-deck{
-  margin-left: 0px;
-  border-radius: 1rem;
 }

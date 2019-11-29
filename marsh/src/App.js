@@ -1,11 +1,10 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import logo from './logo.svg';
+import Card from '@material-ui/core/Card';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
-import Container from 'react-bootstrap/Container';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
 function App() {
   return (
@@ -15,65 +14,27 @@ function App() {
         {/*<p>
           Welcome to the development build of MARSH!
         </p>*/}
-        <div className="welcomeCard">
-          <Card className="bg-dark text-white">
-            <Card.Title>Welcome to the Development Build of MARSH!</Card.Title>  
-            <CardDeck>
-              <Card>
-                <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
-              </Card>
-              <Card>
-                <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This card has supporting text below as a natural lead-in to additional
-                    content.{' '}
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
-              </Card>
-              <Card>
-                <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This card has even longer content than the first to
-                    show that equal height action.
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
-              </Card>
-              <Card>
-                <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This card has even longer content than the first to
-                    show that equal height action.
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
-              </Card>
-            </CardDeck>
-            <Card.Footer></Card.Footer>
+        <Grid
+        container
+        direction='row'
+        justify='flex-start'
+        alignItems='flex-start'>
+          <Grid item xs={12}>
+            <Card className='welcomeCard'>Oh hai</Card>
+          </Grid>
+
+        </Grid>
+        <Card className="welcomeCard">
+          <CardContent>
+          <Typography variant="body2" component="p">
+          well meaning and kindly.
+          <br />
+          {'"a benevolent smile"'}
+        </Typography>
+          </CardContent>
         </Card>
-        </div>
       </header>
+      
     </div>
     
   );
