@@ -1,13 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import Card from '@material-ui/core/Card';
+import Home from './components/Home.js';
 import './App.css';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 
 function App() {
-  
+  return(
+    <Home />
+  );
 }
 
 export default App;

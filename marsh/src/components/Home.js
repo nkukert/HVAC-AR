@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '@material-ui/core/Card';
-import './App.css';
+import '../App.css';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 
@@ -57,8 +57,7 @@ function Home() {
               </Grid>
             </Grid>
           </header>
-          
         </div>
-        
       );
 }
+export default Home;
