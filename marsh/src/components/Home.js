@@ -4,14 +4,13 @@ import '../App.css';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 
-function Home() {
+function Home(props) {
+
+  
+
     return (
         <div className="App">
           <header className="App-header">
-            {/*<img src={logo} className="App-logo" alt="logo" />*/}
-            {/*<p>
-              Welcome to the development build of MARSH!
-            </p>*/}
             <Grid
             container
             spacing={3}
@@ -20,7 +19,7 @@ function Home() {
             alignItems='flex-start'>
               <Grid item xs>
                 <div>
-                    <Card className='topLeft'>Explore</Card>
+                    <Card className='topLeft' onClick={() => props.setPageSelected("explore")}>Explore</Card>
                 </div>
               </Grid>
               <Grid item xs={6}></Grid>
