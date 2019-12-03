@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Home from './components/Home.js';
 import Explore from './components/Explore.js';
+import Return from './components/Return.js';
 import './App.css';
 import './'
 
@@ -21,7 +22,14 @@ function App() {
   if(pageSelected === "explore"){
     return(
       <div>
-        <Explore />
+        <div>
+          <Explore />
+        </div>
+        <div>
+        <Return
+        pageSelected = {pageSelected}
+        setPageSelected = {setPageSelected} />
+        </div>
       </div>
     );
   }

@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '@material-ui/core/Card';
-import '../App.css';
 import Grid from '@material-ui/core/Grid';
 
 function Home(props) {
