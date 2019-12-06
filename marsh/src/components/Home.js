@@ -20,7 +20,7 @@ function Home(props) {
             <Grid item xs={6}></Grid>
             <Grid item xs>
               <div>
-                <Card className='topRight'>Test</Card>
+                <a href="../ar-basic/index.html"><Card className='topRight'>Test</Card></a>
               </div>
             </Grid>
   
