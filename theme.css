@@ -1,0 +1,32 @@
+html, body {
+  overflow-x: hidden;
+  background-color: #121212;
+}
+body {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+h1, h2{
+  color: white;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.jumbotron{
+  background-color: #333333;
+  color: white;
+}
